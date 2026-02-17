@@ -20,8 +20,9 @@ overflow-x:hidden;
 
 /* HEADER */
 .header{
+   
 position:fixed;
-top:0;
+top:100px;
 width:100%;
 display:flex;
 justify-content:space-between;
@@ -30,6 +31,7 @@ padding:20px 60px;
 background:rgba(0,0,0,0.6);
 backdrop-filter:blur(10px);
 z-index:1000;
+
 }
 
 .logo{
@@ -84,6 +86,13 @@ color:var(--green);
 animation:fadeUp 1.5s ease;
 }
 
+.hero h2{
+font-size:50px;
+font-weight:900;
+color:var(--green);
+animation:fadeUp 1.5s ease;
+}
+
 @keyframes fadeUp{
 from{opacity:0;transform:translateY(50px)}
 to{opacity:1;transform:translateY(0)}
@@ -116,7 +125,7 @@ text-align:center;
 background:
 linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
 url("image/background.jpg") center/cover no-repeat;
-
+margin-top: 80px;
 }
 
 .section h2{
@@ -134,7 +143,7 @@ gap:30px;
 
 .card{
 background:linear-gradient(145deg,#0a0a0a,#111);
-padding:80px 30px;
+padding:50px 30px;
 border-radius:25px;
 border:1px solid #ffffff;
 transition:.5s;
