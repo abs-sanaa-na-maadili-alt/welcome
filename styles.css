@@ -128,7 +128,7 @@ url("image/background.jpg") center/cover no-repeat;
 margin-top: 80px;
 }
 
-.hero h2{
+.section h2{
 font-size:30px;
 margin-bottom:40px;
 color:var(--green);
@@ -155,7 +155,7 @@ overflow:hidden;
 }
 
 .cards h3 {
-    color: #d463cb;
+    color: #ffffff;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
