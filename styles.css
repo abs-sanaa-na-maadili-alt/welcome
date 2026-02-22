@@ -128,8 +128,8 @@ url("image/background.jpg") center/cover no-repeat;
 margin-top: 80px;
 }
 
-.section h2{
-font-size:40px;
+.hero h2{
+font-size:30px;
 margin-bottom:40px;
 color:var(--green);
 }
@@ -152,6 +152,11 @@ text-decoration:none;
 color:white;
 position:relative;
 overflow:hidden;
+}
+
+.cards h3 {
+    color: #d463cb;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card::before{
